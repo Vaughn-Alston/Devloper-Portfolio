@@ -319,7 +319,7 @@ nav {
    nav ul li {
     margin: 8px;
   }
-  
+
   .burger-menu {
     display: block;
   }
@@ -327,3 +327,13 @@ nav {
   nav ul.show {
     transform: translateX(0);
   }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  
