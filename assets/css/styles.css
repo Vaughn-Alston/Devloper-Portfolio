@@ -187,6 +187,17 @@ nav ul li {
   height: 60%;
 }
 
+
+.project-container:hover {
+
+
+background-color: #8b8eaf;
+
+}
+
+
+
+
 .projects-container {
   display: flex;
   align-items: center;
