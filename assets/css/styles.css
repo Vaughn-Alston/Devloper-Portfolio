@@ -6,7 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
+  --bg-color: #888585;
   --primary-color: #097969;
   --secondary-color: #5D3FD3;
   --primary-shadow: #8b8eaf;
@@ -108,6 +108,7 @@ nav ul li {
   gap: 6.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-color: var(--bg-color);
 }
 
 .hero img {
@@ -159,6 +160,7 @@ nav ul li {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  background-color: var(--bg-color);
 }
 
 .skill-header {
