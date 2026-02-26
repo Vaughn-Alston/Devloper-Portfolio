@@ -112,10 +112,33 @@ nav ul li {
 }
 
 .hero img {
-  height: 45%;
-  width: 35%;
+  /* height: 45%;
+  width: 35%; FIXME This is the old square box that was holding our image */
+
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+
+
+
   /* box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
 }
+
+/* this will allow me to made edits to the class*/ 
+.bio-title {
+
+  color :white;
+  font-size-adjust: var(--font-family);
+
+
+
+}
+
+
+
+
+
 
 
 .bio {
@@ -125,15 +148,20 @@ nav ul li {
   /* box-shadow: 0px 2px 15px 2px var(--primary-shadow);  
   This will give my abotu me bio a shadow */
   color: rgb(rgb(136, 90, 90));
+  
 }
 
 .bio h1 {
   margin-bottom: var(--bottom-margin);
+  color :white;
 }
 
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  color :white;
+  
+
 }
 /* Hero section ends */
 
@@ -162,7 +190,9 @@ nav ul li {
 
 /* Skills section */
 .skills {
-  max-width: 68.75rem;
+  /* max-width: 68.75rem; */
+
+ 
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
