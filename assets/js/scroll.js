@@ -31,3 +31,34 @@ navLink.forEach((link) =>
   })
 );
 
+
+
+
+// I want to create an array of objects that I will use to display my work and job experience
+
+// experience is the array name
+let experience = [
+
+
+{
+ title: "AWS Deep Racer",
+ club: "Computing Club",
+ date: "12/12/12",
+ description: "......"
+},
+
+{
+ title: "San Deigo Externship",
+ club: "Computing Club",
+ date: "12/12/12",
+ description: "......"
+},
+
+
+
+];
+
+
+experience.forEach(job => console.log(job));
+
+
