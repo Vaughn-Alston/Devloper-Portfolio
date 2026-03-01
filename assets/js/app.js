@@ -49,13 +49,23 @@ let experience = [
 {
  title: "AWS Deep Racer",
  date: "12/12/12",
- description: "......"
+ description: "Trained a reinforcement learning model using PPO on AWS to autonomously complete a racing track. Engineered a reward function to incentivize lane centering, track adherence, and lap efficiency. Iteratively tuned hyperparameters to improve performance and model convergence. Assisted with live testing and operational debugging during competitive autonomous vehicle trials.",
+ image: "assets/images/AWSDEEP.jpg"
+
 },
+
+
+
+
+
+
 // Object 2 and so on 
 {
  title: "San Deigo Externship",
  date: "12/12/12",
- description: "......"
+ description: "......",
+ image: "n/a"
+
 },
 
 
@@ -74,9 +84,35 @@ function displayExperience(data) {
   data.forEach((exp, index)  => 
     {
       if(boxes[index]) {
-      boxes[index].innerHTML = `
-      <p>${exp.title}</p> 
-      `;
+      boxes[index].innerHTML = ""
+      
+      `
+
+    <div class= "exp-header">
+<!-- Im creating a div class so I can manipulate both the title and date on the same line in CSS -->
+
+      <p class = "exp-title"> ${exp.title}</p> 
+      <p class = "exp-date">  ${exp.date}</p>
+
+    </div>
+
+      <p class = "exp-decrip">       ${exp.description}</p>
+
+     
+
+     
+     <!-- I want to add a image to it -->
+     <div class="experience-picture">
+      <img
+              src=" ${exp.image} "
+              alt="Planning Ideas"
+              loading="lazy"
+              class="project-pic"
+            />
+      </div>
+      
+      `
+      ;
     }
 });
 

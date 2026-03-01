@@ -45,6 +45,8 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
+
 }
 
 section {
@@ -108,7 +110,6 @@ nav ul li {
   gap: 6.5rem;
   max-width: 68.75rem;
   margin: auto;
-  background-color: var(--bg-color);
 }
 
 .hero img {
@@ -142,13 +143,57 @@ object-fit: cover;
 
 .expbox{
 
-  width: 200px;
+  width: 1000px;
   height: 150px;
-  background-color: white;
+  color: white;
+  
   margin: 10px;
-  -webkit-text-fill-color: #000000;
-}
+  -webkit-text-fill-color: white;
+  text-align: left;
+  /* color: white; */
 
+/* This line prevents cramping */
+  padding: 16px;
+  overflow: hidden;
+
+
+
+ /* this makes my text glass */ 
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225,225,225, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(225,225,225, 0.18);
+  box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+
+  
+
+  }
+
+  /* This will represent  a container the artwork for the title and date of the experience **/
+  .exp-header{
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   
+  }
+
+
+  .exp-date {
+
+
+    color: white;
+
+  }
+
+ 
+
+
+  /* This will represent the setting for the header and the title of the boxes */
 
 
 
@@ -218,7 +263,7 @@ object-fit: cover;
 .skills {
   /* max-width: 68.75rem; */
 
- 
+  
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
@@ -364,6 +409,7 @@ background-color: #8b8eaf;
   position: fixed;
   right: 1%;
   bottom: 50%;
+  background-color: #fff9f9;
 }
 
 .socicon {
