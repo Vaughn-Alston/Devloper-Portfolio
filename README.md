@@ -17,3 +17,5 @@ Responsive design with Flexbox and media queries
 Custom CSS for a clean, modern UI
 
 Optimized for performance and accessibility across devices
+
+Data is pushed through Javascript to make it easier to update website
