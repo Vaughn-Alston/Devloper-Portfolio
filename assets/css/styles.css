@@ -6,8 +6,8 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #097969;
+  --bg-color: #000000;
+  --primary-color: #ffffff;
   --secondary-color: #5D3FD3;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -108,29 +108,86 @@ nav ul li {
   gap: 6.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-color: var(--bg-color);
 }
 
 .hero img {
-  height: 45%;
-  width: 35%;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  /* height: 45%;
+  width: 35%; FIXME This is the old square box that was holding our image */
+
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+
+
+
+  /* box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
 }
+
+/* this will allow me to made edits to the class*/ 
+.bio-title {
+
+  color :white;
+  font-size-adjust: var(--font-family);
+
+
+
+}
+
+
+
+
+
+
+.expbox{
+
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  margin: 10px;
+  -webkit-text-fill-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .bio {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  /* box-shadow: 0px 2px 15px 2px var(--primary-shadow);  
+  This will give my abotu me bio a shadow */
+ 
+  
 }
 
 .bio h1 {
   margin-bottom: var(--bottom-margin);
+  color :white;
 }
 
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  color :white;
+  
+
 }
 /* Hero section ends */
 
@@ -139,26 +196,33 @@ nav ul li {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
   text-align: center;
+  color :white;
 }
 
 .more-about h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
+  color :white;
+
 }
 
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
   text-align: center;
+    color :white;
 }
 /* More about ends */
 
 /* Skills section */
 .skills {
-  max-width: 68.75rem;
+  /* max-width: 68.75rem; */
+
+ 
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  background-color: var(--bg-color);
 }
 
 .skill-header {
@@ -384,6 +448,20 @@ footer {
     gap: 5px;
   }
 
+  .AWSDEEP {
+
+    height: 35%;
+    width: 25%;
+
+
+  }
+
+
+
+
+
+
+
   .hero img {
     height: 35%;
     width: 25%;
@@ -392,6 +470,7 @@ footer {
   .bio {
     margin-top: 1rem;
     width: 20.5rem;
+    color :white;
   }
 
   .more-about {
