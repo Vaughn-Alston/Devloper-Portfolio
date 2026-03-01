@@ -39,26 +39,52 @@ navLink.forEach((link) =>
 // experience is the array name
 let experience = [
 
+ // This will be the first objcet 
 
+// Title represents the company or experience name.
+// Date will show the date of that experience.
+// The the description will describe the event.
+
+//Object one 
 {
  title: "AWS Deep Racer",
- club: "Computing Club",
  date: "12/12/12",
  description: "......"
 },
-
+// Object 2 and so on 
 {
  title: "San Deigo Externship",
- club: "Computing Club",
  date: "12/12/12",
  description: "......"
 },
 
 
 
-];
 
 
-experience.forEach(job => console.log(job));
+
+]; // This will be the end of the Array of objects of experiences.
+
+
+function displayExperience(data) {
+
+  // This will act like a pointer for the boxes I want to fill
+  const boxes = document.querySelectorAll(".expbox");
+
+  data.forEach((exp, index)  => 
+    {
+      if(boxes[index]) {
+      boxes[index].innerHTML = `
+      <p>${exp.title}</p> 
+      `;
+    }
+});
+
+
+}
+
+
+
+  displayExperience(experience);
 
 

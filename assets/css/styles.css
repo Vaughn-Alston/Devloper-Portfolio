@@ -136,13 +136,7 @@ object-fit: cover;
 }
 
 
-.experience-container {
 
-
-
-
-
-}
 
 
 
@@ -152,6 +146,7 @@ object-fit: cover;
   height: 150px;
   background-color: white;
   margin: 10px;
+  -webkit-text-fill-color: #000000;
 }
 
 
