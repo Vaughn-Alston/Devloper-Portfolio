@@ -226,6 +226,22 @@ object-fit: cover;
     gap: 20px;
   }
 
+  .exp-decrip{
+
+ 
+    line-height: 1.6;
+    text-align: left;
+    
+  }
+
+  .experience-picture img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
 
 
 
