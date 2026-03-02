@@ -49,14 +49,23 @@ let experience = [
 
 
 {
+  title: "City Of Manhattan Beach Dial-A-Ride Dispatcher",
+  date: "2025 - Present",
+  description: "Coordinate senior transportation logistics and manage high-volume dispatch communications. Build trusted relationships with seniors and city personnel to ensure safe and reliable municipal service. Independently planned and executed a municipal program from concept through implementation, demonstrating leadership, accountability, and organizational coordination.",
+  image: "assets/images/healthfair.jpg"
+ 
+ },
+
+
+
+
+{
   title: "AI Skills Passport Offered by EY and Microsoft",
   date: "2/16/26",
   description: "Knowledge of core Artificial Intelligence and Machine Learning paradigms including supervised learning, unsupervised learning, and reinforcement learning. Understanding of model training workflows, reward shaping strategies, neural network fundamentals, and performance optimization techniques. Familiar with ethical AI principles, bias mitigation, and the application of AI systems for data pattern analysis and sustainability-focused decision support.",
   image: "assets/images/cert.jpeg"
  
  },
-
-
 
 
 // Object 2 and so on 
@@ -75,6 +84,8 @@ let experience = [
   image: "assets/images/supercom.jpg"
  
  }
+
+
  
 
 
