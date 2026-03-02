@@ -145,6 +145,7 @@ width: 260px;   /* increased from 200 */
 
 
 
+
 .expbox{
 
   display: flex;
@@ -153,7 +154,7 @@ width: 260px;   /* increased from 200 */
   gap: 16px;
  
    /* This keeps the box wide but responsive instead of fixed 1000px */
-   width: min(1000px, 92vw);
+   width: min(1250px, 97vw);
  
    height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
  
@@ -208,7 +209,7 @@ width: 260px;   /* increased from 200 */
 
   .experience-picture img {
     width: 200px;
-    height: 200px;
+    height: auto;
     border-radius: 50%;         /* circle on the image itself */
     object-fit: cover;
   }
@@ -234,6 +235,7 @@ width: 260px;   /* increased from 200 */
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    width: 1250px;
   }
 
   .exp-decrip{
@@ -494,6 +496,17 @@ background-color: #8b8eaf;
   width: 2rem;
   height: 2rem;
 }
+
+.sos{
+gap: 16px;
+width: 5rem;
+height: 2rem;
+
+}
+
+
+
+
 /* Social button ends */
 
 /* Scroll to top button */
