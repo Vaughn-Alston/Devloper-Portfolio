@@ -45,6 +45,8 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
+
 }
 
 section {
@@ -108,7 +110,6 @@ nav ul li {
   gap: 6.5rem;
   max-width: 68.75rem;
   margin: auto;
-  background-color: var(--bg-color);
 }
 
 .hero img {
@@ -142,12 +143,122 @@ object-fit: cover;
 
 .expbox{
 
-  width: 200px;
-  height: 150px;
-  background-color: white;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 16px;
+
+  width: 1000px;
+  height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
   margin: 10px;
-  -webkit-text-fill-color: #000000;
-}
+  -webkit-text-fill-color: white;
+  text-align: left;
+  /* color: white; */
+
+/* This line prevents cramping */
+  padding: 16px;
+  overflow: hidden;
+
+ /* this makes my text glass */ 
+  background: linear-gradient(135deg, rgba(75, 37, 37, 0.1), rgba(225,225,225, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(225,225,225, 0.18);
+  box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+
+  /* This will represent  a container the artwork for the title and date of the experience **/
+  .exp-header{
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  /* This will represent the description of the boxes */
+
+
+
+
+  /* This will represent the image size and style */
+
+  .experience-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  /* pushes image to the right */
+    width: 100%;                /* spans full width of expbox */
+    height: 100px;  
+  }
+  
+
+
+  .experience-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;         /* circle on the image itself */
+    object-fit: cover;
+  }
+
+
+  .exp-title {
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .exp-date {
+  
+     font-size: 0.74rem;    /* smaller date */
+     color: rgba(255,255,255,0.6); 
+  }
+
+  /* I utilize the flex and row direction to display the description and image horizontally and one after the other */
+  .exp-body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .exp-decrip{
+
+ 
+    line-height: 1.6;
+    text-align: left;
+    
+  }
+
+  .experience-picture img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+ 
+
 
 
 
@@ -218,7 +329,7 @@ object-fit: cover;
 .skills {
   /* max-width: 68.75rem; */
 
- 
+  
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
@@ -364,6 +475,7 @@ background-color: #8b8eaf;
   position: fixed;
   right: 1%;
   bottom: 50%;
+  background-color: #fff9f9;
 }
 
 .socicon {
@@ -448,13 +560,13 @@ footer {
     gap: 5px;
   }
 
-  .AWSDEEP {
+  /* .AWSDEEP {
 
     height: 35%;
     width: 25%;
 
 
-  }
+  } */
 
 
 
