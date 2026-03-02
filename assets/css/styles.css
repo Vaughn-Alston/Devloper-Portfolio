@@ -143,10 +143,14 @@ object-fit: cover;
 
 .expbox{
 
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 16px;
+
+
   width: 1000px;
-  height: 150px;
-  color: white;
-  
+  height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
   margin: 10px;
   -webkit-text-fill-color: white;
   text-align: left;
@@ -159,7 +163,7 @@ object-fit: cover;
 
 
  /* this makes my text glass */ 
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225,225,225, 0));
+  background: linear-gradient(135deg, rgba(75, 37, 37, 0.1), rgba(225,225,225, 0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
@@ -182,18 +186,45 @@ object-fit: cover;
    
   }
 
+  /* This will represent the description of the boxes */
 
-  .exp-date {
 
 
-    color: white;
 
+  /* This will represent the image size and style */
+
+  .experience-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  /* pushes image to the right */
+    width: 100%;                /* spans full width of expbox */
+    height: 100px;
+
+
+  
+    
   }
+  
+  .experience-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;         /* circle on the image itself */
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+
+
+  
 
  
 
 
-  /* This will represent the setting for the header and the title of the boxes */
 
 
 
@@ -494,13 +525,13 @@ footer {
     gap: 5px;
   }
 
-  .AWSDEEP {
+  /* .AWSDEEP {
 
     height: 35%;
     width: 25%;
 
 
-  }
+  } */
 
 
 
