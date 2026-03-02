@@ -47,9 +47,9 @@ let experience = [
 
 //Object one 
 {
- title: "AWS-Deep-Racer",
- date: "12/12/12",
- description: "",
+ title: "AWS DeepRacer – Applied Reinforcement Learning Engineer",
+ date: "11/15/24",
+ description: "Designed and deployed an RL-based autonomous driving agent on AWS using PPO. Developed reward shaping strategies to improve policy learning efficiency and driving stability. Iteratively trained models in a cloud environment, optimizing for convergence and performance metrics. Supported live event infrastructure and debugging for autonomous vehicle execution.",
  image: "assets/images/aws.jpeg"
 
 },
@@ -62,7 +62,7 @@ let experience = [
 // Object 2 and so on 
 {
  title: "San Deigo-Externship",
- date: "12/12/12",
+ date: "11/15/24",
  description: "......",
  image: "n/a"
 
