@@ -49,7 +49,7 @@ let experience = [
 {
  title: "AWS Deep Racer",
  date: "12/12/12",
- description: "Trained a reinforcement learning model using PPO on AWS to autonomously complete a racing track. Engineered a reward function to incentivize lane centering, track adherence, and lap efficiency. Iteratively tuned hyperparameters to improve performance and model convergence. Assisted with live testing and operational debugging during competitive autonomous vehicle trials.",
+ description: "",
  image: "assets/images/AWSDEEP.jpg"
 
 },
@@ -84,8 +84,7 @@ function displayExperience(data) {
   data.forEach((exp, index)  => 
     {
       if(boxes[index]) {
-      boxes[index].innerHTML = ""
-      
+      boxes[index].innerHTML = 
       `
 
     <div class= "exp-header">
@@ -102,17 +101,18 @@ function displayExperience(data) {
 
      
      <!-- I want to add a image to it -->
-     <div class="experience-picture">
+
+     
       <img
-              src=" ${exp.image} "
-              alt="Planning Ideas"
-              loading="lazy"
-              class="project-pic"
+              src="${exp.image}"
+              alt="Experience"
+             
+              class="experience-picture"
             />
-      </div>
+    
       
       `
-      ;
+     ;
     }
 });
 
