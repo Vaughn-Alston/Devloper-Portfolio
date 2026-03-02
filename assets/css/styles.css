@@ -217,7 +217,14 @@ object-fit: cover;
      color: rgba(255,255,255,0.6); 
   }
 
+  /* I utilize the flex and row direction to display the description and image horizontally and one after the other */
+  .exp-body {
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
 
 
 
