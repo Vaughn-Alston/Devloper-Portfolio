@@ -210,10 +210,23 @@ object-fit: cover;
     font-weight: bold;
     color: white;
   }
+
+  .exp-date {
   
+     font-size: 0.74rem;    /* smaller date */
+     color: rgba(255,255,255,0.6); 
+  }
 
 
 
+
+
+
+
+
+
+
+  
 
 
 
