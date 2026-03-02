@@ -47,10 +47,10 @@ let experience = [
 
 //Object one 
 {
- title: "AWS Deep Racer",
+ title: "AWS-Deep-Racer",
  date: "12/12/12",
  description: "",
- image: "assets/images/AWSDEEP.jpg"
+ image: "assets/images/aws.jpeg"
 
 },
 
@@ -61,7 +61,7 @@ let experience = [
 
 // Object 2 and so on 
 {
- title: "San Deigo Externship",
+ title: "San Deigo-Externship",
  date: "12/12/12",
  description: "......",
  image: "n/a"
@@ -86,33 +86,26 @@ function displayExperience(data) {
       if(boxes[index]) {
       boxes[index].innerHTML = 
       `
-
     <div class= "exp-header">
 <!-- Im creating a div class so I can manipulate both the title and date on the same line in CSS -->
 
       <p class = "exp-title"> ${exp.title}</p> 
       <p class = "exp-date">  ${exp.date}</p>
+   </div>
 
-    </div>
 
-      <p class = "exp-decrip">       ${exp.description}</p>
 
-     
+<!--This  exp body div class will container my code allowing 
+ me to arrange the image and description out of the way of the title and date -->
 
-     
-     <!-- I want to add a image to it -->
+<div class= "exp-body"> 
+      <p class = "exp-decrip">${exp.description}</p>
 
-     
-      <img
-              src="${exp.image}"
-              alt="Experience"
-             
-              class="experience-picture"
-            />
-    
-      
-      `
-     ;
+      <img src="${exp.image}" alt="${exp.title}" loading="lazy"
+              class="experience-picture"/>
+</div>
+</div>
+      `;
     }
 });
 
