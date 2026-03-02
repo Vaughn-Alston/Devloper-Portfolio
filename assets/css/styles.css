@@ -148,7 +148,6 @@ object-fit: cover;
  align-items: center;
  gap: 16px;
 
-
   width: 1000px;
   height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
   margin: 10px;
@@ -160,8 +159,6 @@ object-fit: cover;
   padding: 16px;
   overflow: hidden;
 
-
-
  /* this makes my text glass */ 
   background: linear-gradient(135deg, rgba(75, 37, 37, 0.1), rgba(225,225,225, 0));
   backdrop-filter: blur(10px);
@@ -169,12 +166,8 @@ object-fit: cover;
   border-radius: 20px;
   border: 1px solid rgba(225,225,225, 0.18);
   box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.37);
-
-
-
-  
-
   }
+
 
   /* This will represent  a container the artwork for the title and date of the experience **/
   .exp-header{
@@ -182,8 +175,8 @@ object-fit: cover;
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 8px;
     color: white;
-   
   }
 
   /* This will represent the description of the boxes */
@@ -198,13 +191,11 @@ object-fit: cover;
     flex-direction: row;
     justify-content: flex-end;  /* pushes image to the right */
     width: 100%;                /* spans full width of expbox */
-    height: 100px;
-
-
-  
-    
+    height: 100px;  
   }
   
+
+
   .experience-picture img {
     width: 200px;
     height: 200px;
@@ -212,6 +203,14 @@ object-fit: cover;
     object-fit: cover;
   }
 
+
+  .exp-title {
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
 
 
 
