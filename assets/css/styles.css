@@ -143,30 +143,36 @@ object-fit: cover;
 
 .expbox{
 
- display: flex;
- flex-direction: row;
- align-items: center;
- gap: 16px;
-
-  width: 1000px;
-  height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
-  margin: 10px;
-  -webkit-text-fill-color: white;
-  text-align: left;
-  /* color: white; */
-
-/* This line prevents cramping */
-  padding: 16px;
-  overflow: hidden;
-
- /* this makes my text glass */ 
-  background: linear-gradient(135deg, rgba(75, 37, 37, 0.1), rgba(225,225,225, 0));
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(225,225,225, 0.18);
-  box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+ 
+   /* This keeps the box wide but responsive instead of fixed 1000px */
+   width: min(1000px, 92vw);
+ 
+   height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
+ 
+   /* This centers the boxes instead of pushing them left */
+   margin: 10px auto;
+ 
+   /* Use standard color instead of -webkit-text-fill-color */
+   color: white;
+ 
+   text-align: left;
+ 
+   /* This line prevents cramping */
+   padding: 16px;
+   overflow: hidden;
+ 
+  /* this makes my text glass */ 
+   background: linear-gradient(135deg, rgba(75, 37, 37, 0.1), rgba(225,225,225, 0));
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+   border-radius: 20px;
+   border: 1px solid rgba(225,225,225, 0.18);
+   box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.37);
+ }
 
 
   /* This will represent  a container the artwork for the title and date of the experience **/
@@ -633,4 +639,10 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
-}
+    /* This stacks experience content vertically on small screens */
+    .expbox{
+      flex-direction: column;
+      align-items: flex-start;
+      width: 92vw;
+    }
+  }

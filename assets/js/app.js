@@ -57,8 +57,6 @@ let experience = [
  },
 
 
-
-
 // Object 2 and so on 
 {
   title: "AWS DeepRacer – Applied Reinforcement Learning Engineer",
