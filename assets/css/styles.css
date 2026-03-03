@@ -414,6 +414,22 @@ background-color: #8b8eaf;
   margin-bottom: var(--bottom-margin);
 }
 
+.project-link {
+
+color: black;
+display: flex;
+align-items: row;
+justify-content: center;
+
+
+
+}
+
+
+
+
+
+
 /* Projects section ends */
 
 /* Contacts section */
@@ -489,6 +505,7 @@ background-color: #8b8eaf;
   bottom: 50%;
   background-color: #000000;
   justify-content: center;
+  align-items: center;
   /* This will center and flex my socials */
 }
 
@@ -500,7 +517,8 @@ background-color: #8b8eaf;
 .sos{
 gap: 16px;
 width: 5rem;
-height: 2rem;
+height: 1 1/2 rem;
+align-items: center;
 
 }
 
