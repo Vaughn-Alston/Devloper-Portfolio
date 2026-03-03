@@ -52,7 +52,7 @@ let experience = [
   title: "City Of Manhattan Beach Dial-A-Ride Dispatcher",
   date: "2025 - Present",
   description: "Coordinate senior transportation logistics and manage high-volume dispatch communications. Build trusted relationships with seniors and city personnel to ensure safe and reliable municipal service. Independently planned and executed a municipal program from concept through implementation, demonstrating leadership, accountability, and organizational coordination.",
-  image: "assets/images/healthfair.jpg"
+  image: "assets/images/healthfair.webp"
  
  },
 
@@ -63,7 +63,7 @@ let experience = [
   title: "AI Skills Passport Offered by EY and Microsoft",
   date: "2/16/26",
   description: "Knowledge of core Artificial Intelligence and Machine Learning paradigms including supervised learning, unsupervised learning, and reinforcement learning. Understanding of model training workflows, reward shaping strategies, neural network fundamentals, and performance optimization techniques. Familiar with ethical AI principles, bias mitigation, and the application of AI systems for data pattern analysis and sustainability-focused decision support.",
-  image: "assets/images/cert.jpeg"
+  image: "assets/images/cert.webp"
  
  },
 
@@ -73,7 +73,7 @@ let experience = [
   title: "AWS DeepRacer – Applied Reinforcement Learning Engineer",
   date: "11/15/24",
   description: "Built and trained a reinforcement learning (RL) model on Amazon Web Services (AWS) to autonomously navigate a racing track. Designed a custom reward function to optimize lane centering and completion performance, iteratively refining policy behavior using Proximal Policy Optimization (PPO) in a cloud-based training environment. Supported live testing by assisting with hardware resets, monitoring model performance, and troubleshooting to ensure successful autonomous runs.",
-  image: "assets/images/aws.jpeg"
+  image: "assets/images/aws.webp"
  
  },
 
@@ -81,7 +81,7 @@ let experience = [
   title: "Externship UCSD Supercomputer Center",
   date: "11/22/24",
   description: "Participated in an HPC externship at the UCSD Supercomputer Center, gaining exposure to supercomputing architecture, energy consumption, and distributed systems. Completed a hands-on parallel processing simulation modeling how compute nodes collaborate to solve large-scale problems efficiently.",
-  image: "assets/images/supercom.jpg"
+  image: "assets/images/supercom.webp"
  
  }
 

@@ -10,7 +10,7 @@
   --primary-color: #ffffff;
   --secondary-color: #5D3FD3;
   --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --secondary-shadow: #e1e1e1;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -145,6 +145,7 @@ width: 260px;   /* increased from 200 */
 
 
 
+
 .expbox{
 
   display: flex;
@@ -153,7 +154,7 @@ width: 260px;   /* increased from 200 */
   gap: 16px;
  
    /* This keeps the box wide but responsive instead of fixed 1000px */
-   width: min(1000px, 92vw);
+   width: min(1250px, 97vw);
  
    height: auto; /*allows the box to dynamically grow taller or shorter to fit data */
  
@@ -186,7 +187,7 @@ width: 260px;   /* increased from 200 */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8px;
-    color: white;
+    color: rgb(236, 231, 231);
   }
 
   /* This will represent the description of the boxes */
@@ -208,7 +209,7 @@ width: 260px;   /* increased from 200 */
 
   .experience-picture img {
     width: 200px;
-    height: 200px;
+    height: auto;
     border-radius: 50%;         /* circle on the image itself */
     object-fit: cover;
   }
@@ -234,6 +235,7 @@ width: 260px;   /* increased from 200 */
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    width: 1250px;
   }
 
   .exp-decrip{
@@ -259,8 +261,17 @@ width: 260px;   /* increased from 200 */
 
 
 
-  
+  /* Here I will put in Css for my second page */
+  .webpage-2-nav{
 
+    display: flex;
+
+    justify-content: center;
+
+
+
+
+  }
 
 
 
@@ -376,7 +387,7 @@ width: 260px;   /* increased from 200 */
 .project-container:hover {
 
 
-background-color: #8b8eaf;
+background-color: #f3f3f4;
 
 }
 
@@ -412,11 +423,28 @@ background-color: #8b8eaf;
   margin-bottom: var(--bottom-margin);
 }
 
+.project-link {
+
+color: black;
+display: flex;
+align-items: row;
+justify-content: center;
+
+
+
+}
+
+
+
+
+
+
 /* Projects section ends */
 
 /* Contacts section */
 .contact {
   margin-top: 2rem;
+  color: white;
 }
 
 .contact h2 {
@@ -427,8 +455,8 @@ background-color: #8b8eaf;
 .contact-form-container {
   max-width: 40.75rem;
   margin: 0 auto;
-  padding: 0.938rem;
-  border-radius: 5px;
+  padding: 1rem;
+  border-radius: 30px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
 }
 
@@ -441,17 +469,19 @@ background-color: #8b8eaf;
 .contact-form-container textarea {
   min-height: 6.25rem;
   font-size: 14px;
+  border-radius: 10px;
 }
 
 .contact-form-container .input-field {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
   outline: none;
+
 }
 
 .input-field::placeholder {
@@ -487,6 +517,7 @@ background-color: #8b8eaf;
   bottom: 50%;
   background-color: #000000;
   justify-content: center;
+  align-items: center;
   /* This will center and flex my socials */
 }
 
@@ -494,6 +525,18 @@ background-color: #8b8eaf;
   width: 2rem;
   height: 2rem;
 }
+
+.sos{
+gap: 16px;
+width: 5rem;
+height: 1 1/2 rem;
+align-items: center;
+
+}
+
+
+
+
 /* Social button ends */
 
 /* Scroll to top button */
