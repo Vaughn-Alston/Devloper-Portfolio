@@ -261,6 +261,8 @@ width: 260px;   /* increased from 200 */
 
 
 
+
+
   /* Here I will put in Css for my second page */
   .webpage-2-nav{
 
@@ -272,6 +274,21 @@ width: 260px;   /* increased from 200 */
 
 
   }
+
+
+
+  .button1{
+
+  
+    width: 200px;
+    height:100px;
+    
+  }
+
+
+
+
+
 
 
 
@@ -359,6 +376,7 @@ width: 260px;   /* increased from 200 */
 
 .skill-header {
   margin-bottom: 1rem;
+  color: white;
 }
 
 .skills-wrapper img {

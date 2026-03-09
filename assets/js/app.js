@@ -95,6 +95,29 @@ let experience = [
 ]; // This will be the end of the Array of objects of experiences.
 
 
+
+function removelastCard(){ 
+
+const art = document.getElementById("Work-Container"); // point to the container
+
+
+ art.lastElementChild.remove(); // This iwll remove one of the elements in the Array Dynamically
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function displayExperience(data) {
 
   // This will act like a pointer for the boxes I want to fill
