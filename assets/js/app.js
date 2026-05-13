@@ -69,10 +69,17 @@ function displayExperience(data) {
  me to arrange the image and description out of the way of the title and date -->
 
 <div class= "exp-body"> 
-      <p class = "exp-decrip">${exp.description}</p>
 
+
+<ul class="exp-descrip"> 
+
+${exp.description.map(item => `<li>${item}</li>`).join("")}
+
+</ul> 
       <img src="${exp.image}" alt="${exp.title}" loading="lazy"
               class="experience-picture"/>
+
+
 </div>
 </div>
       `;
