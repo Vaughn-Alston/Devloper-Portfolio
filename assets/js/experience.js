@@ -17,21 +17,23 @@ let experience = [
    
    
    // Creating a nested array to hold array of things I done as bullet points
-     description: `
-     "Managed transportation scheduling and coordinated communication between drivers and senior residents.",
+     description: [
+
+   "•Managed transportation scheduling and coordinated communication between drivers and senior residents.",
    
-   • Developed a visual ride-tracking sticker system to improve accessibility for senior riders who struggled with handwriting or remembering ride schedules.
+   "• Developed a visual ride-tracking sticker system to improve accessibility for senior riders who struggled with handwriting or remembering ride schedules.",
    
-   • Designed the official Dial-A-Ride logo, later adopted for use in community newsletters and outreach materials.
+   "• Designed the official Dial-A-Ride logo, later adopted for use in community newsletters and outreach materials.",
    
-   • Created and launched the “Dial-A-Ride Coffee Social” initiative to increase senior engagement and improve program ridership through organized transportation events.
+   "• Created and launched the “Dial-A-Ride Coffee Social” initiative to increase senior engagement and improve program ridership through organized transportation events.",
    
-   • Conducted outreach to local businesses, secured senior discounts, and coordinated transportation logistics for community participants.
+   "• Conducted outreach to local businesses, secured senior discounts, and coordinated transportation logistics for community participants.",
    
-   • Designed promotional flyers and collaborated with supervisors to successfully approve and launch public community programs.
+   "• Designed promotional flyers and collaborated with supervisors to successfully approve and launch public community programs.",
    
-   • Assisted with scheduling systems, customer service, operational coordination, and rider support in a fast-paced public service environment.
-   `,
+   "• Assisted with scheduling systems, customer service, operational coordination, and rider support in a fast-paced public service environment.",
+   ],
+
      image: "assets/images/healthfair.webp"
    },
    
