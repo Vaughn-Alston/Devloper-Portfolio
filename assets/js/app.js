@@ -60,7 +60,13 @@ function displayExperience(data) {
 <!-- Im creating a div class so I can manipulate both the title and date on the same line in CSS -->
 
       <p class = "exp-title"> ${exp.title}</p> 
+      
       <p class = "exp-date">  ${exp.date}</p>
+
+      <img scr="${exp.companylogo}" alt = ${exp.title}" loading="lazy"
+        class="company-logo"/>
+
+
    </div>
 
 
